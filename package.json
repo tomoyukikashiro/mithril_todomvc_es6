@@ -12,7 +12,6 @@
   "devDependencies":{
     "del": "^1.1.0",
     "gulp": "*",
-    "gulp-plumber": "*",
     "browser-sync": "*",
     "vinyl-source-stream": "*",
     "browserify": "*",

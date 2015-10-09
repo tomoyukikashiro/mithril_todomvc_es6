@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
-var plumber = require('gulp-plumber');
 var browserify = require('browserify');
 var babelify = require('babelify');
 var source = require('vinyl-source-stream');

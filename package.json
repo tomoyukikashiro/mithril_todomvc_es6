@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "ksrtmyk@gmail.com",
+  "name": "mithril_todomvc_es6",
+  "version": "0.1.0",
+  "description": "Mithril TodoMVC written by ES6",
+  "dependencies": {
+    "todomvc-common": "^1.0.1",
+    "todomvc-app-css": "^1.0.1",
+    "mithril": "~0.2.0"
+  },
+  "devDependencies":{
+    "del": "^1.1.0",
+    "gulp": "*",
+    "gulp-plumber": "*",
+    "browser-sync": "*",
+    "vinyl-source-stream": "*",
+    "browserify": "*",
+    "babelify": "*"
+  }
+}

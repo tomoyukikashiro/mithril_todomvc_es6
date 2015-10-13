@@ -7,7 +7,7 @@ function uniqueId(){
   }
 }
 
-export default class TodoModel {
+export default class {
   constructor(data) {
     this.title = m.prop(data.title);
     this.completed = m.prop(data.completed || false);

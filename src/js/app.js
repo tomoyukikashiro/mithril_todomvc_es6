@@ -7,6 +7,6 @@ let component = {controller, view};
 
 m.route.mode = 'hash';
 m.route(document.getElementById('todoapp'), '/', {
-	'/': component,
-	'/:filter': component
+  '/': component,
+  '/:filter': component
 });

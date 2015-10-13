@@ -5,11 +5,13 @@
   "version": "0.1.0",
   "description": "Mithril TodoMVC written in ES6",
   "dependencies": {
-    "todomvc-common": "^1.0.1",
+    "jquery": "*",
+    "materialize-css": "^0.97.1",
+    "mithril": "~0.2.0",
     "todomvc-app-css": "^1.0.1",
-    "mithril": "~0.2.0"
+    "todomvc-common": "^1.0.1"
   },
-  "devDependencies":{
+  "devDependencies": {
     "del": "^1.1.0",
     "gulp": "*",
     "browser-sync": "*",
@@ -18,6 +20,8 @@
     "babelify": "*",
     "gulp-msx": "*",
     "gulp-eslint": "*",
-    "babel-eslint": "*"
+    "babel-eslint": "*",
+    "gulp-uglify": "*",
+    "gulp-concat": "*"
   }
 }

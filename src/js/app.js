@@ -10,3 +10,12 @@ m.route(document.getElementById('todoapp'), '/', {
   '/': component,
   '/:filter': component
 });
+
+// use jquery
+console.log($.fn.jquery);
+// use materialize
+$('#modal1').openModal({
+  complete: function() {
+    Materialize.toast('hello world', 4000);
+  }
+});
